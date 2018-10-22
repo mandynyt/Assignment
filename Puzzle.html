@@ -51,8 +51,8 @@
       var birthyear = $('#birthyear').val()
       var age = 2018 - birthyear
       var message = 'Magic~~~'+name+', I know you are '+age+' years old!'
-      $('#message').append(message)
-      $('#message').show()
+      $('#message').html(message)
+      $('#message').show('slow')
       // alert('Magic~~~'+name+', I know you are '+age+' years old!')
     })
 
